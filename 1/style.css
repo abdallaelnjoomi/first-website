@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #606C5D;
+    background-color: #FFF4F4;
+}
+img{
+    max-width: 100%;
+}
+h1,
+h2{
+    margin-bottom: 15px;
+    font-family: Poppins;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background-color: #ffda99;
+    color: #606C5D;
+    height: 60px;
+    
+}
+.navbar .logo{
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+.navbar .logo:hover{
+    color: rgb(34, 34, 34);
+}
+.navbar a {
+    color: #606C5D;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: rgb(34, 34, 34);
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin-left: 60px;
+}
+
+.container img{
+    width:60%;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.header{
+    background-color: #F7E6C4;
+    color: rgb(34, 34, 34);
+    padding: 117px 0;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.header p{
+    font-size: x-large;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container{
+    display: flex;
+    
+    justify-content: space-between; 
+    padding: 110px 0;
+}
+.box{
+    flex: 1;
+    background-color: #F7E6C4;
+    color: rgb(34, 34, 34);
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    padding: 100px 20px;
+    text-align: center;
+}
+.box li {
+    width: 70%;
+    margin: auto;
+}
+@media(max-width:768px){
+    .header .container{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .header img{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
+}
